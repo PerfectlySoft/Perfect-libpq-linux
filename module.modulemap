@@ -1,5 +1,5 @@
 module libpq {
-    header "/usr/local/include/libpq-fe.h"
+    header "/usr/include/postgresql/libpq-fe.h"
     link "pq"
     export *
 }
