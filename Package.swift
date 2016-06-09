@@ -22,8 +22,5 @@ import PackageDescription
 let package = Package(
 	name: "libpq",
 	pkgConfig: "libpq",
-	providers: [
-	           	.Brew("postgres"),
-	           	.Apt("pq"),
-	]
+	providers: [.Apt("libpq-dev")]
 )
