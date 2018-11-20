@@ -1,3 +1,4 @@
+// swift-tools-version:4.0
 //
 //  Package.swift
 //  Perfect-libpq-linux
@@ -22,5 +23,5 @@ import PackageDescription
 let package = Package(
 	name: "libpq",
 	pkgConfig: "libpq",
-	providers: [.Apt("libpq-dev")]
+	providers: [.apt(["libpq-dev"])]
 )
